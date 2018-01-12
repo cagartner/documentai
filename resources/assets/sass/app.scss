@@ -1,0 +1,27 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "bulma";
+
+.is-rounded {
+  border-radius: 290486px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h1 {
+  @extend .title;
+  @extend .is-1;
+}
+
+h2 {
+  @extend .title;
+  @extend .is-2;
+}
+
+h3 {
+  @extend .title;
+  @extend .is-3;
+}
